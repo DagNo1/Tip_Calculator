@@ -8,7 +8,7 @@ update_date: Thu, 01 Jan 1970 00:00:00 UTC
 stages:
 - id: 823
   step: 12245
-  is_completed: false
+  is_completed: true
 - id: 824
   step: 12246
   is_completed: false

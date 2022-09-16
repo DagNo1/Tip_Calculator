@@ -13,6 +13,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../../Tip Calculator/task/build/intermediates/app_classes/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ae5adcbe9bee6f60e29c20b36ec865fe/transformed/espresso-core-3.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/41f390b231afa30eac63965ac828e970/transformed/rules-1.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/615b8e44f3334519cd68a4c7461357c8/transformed/jetified-junit-1.1.3-api.jar</arg>
