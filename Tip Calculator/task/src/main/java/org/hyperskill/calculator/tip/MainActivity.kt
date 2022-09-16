@@ -21,7 +21,9 @@ class MainActivity : AppCompatActivity() {
         slide.addOnChangeListener { _, _, _ -> update() }
     }
     private fun update() {
-        outPut.text = if (cost.text.isBlank()) ""
-                      else "Bill value: ${cost.text}, tip percentage: ${slide.value.toInt()}%"
+        outPut.text = if (cost.text.isBlank()) "" else {
+            val result = cost.text.toString().toDouble() * slide.value.toString().toDouble() / 100
+            "Tip amount: ${"%.2f".format(result)}"
+        }
     }
 }
